@@ -15,3 +15,8 @@ go get github.com/stretchr/testify
 go get github.com/mattn/go-sqlite3
 ```
 
+## Unit test locations
+
+db/emaildb_test.go
+message/message_test.go
+
