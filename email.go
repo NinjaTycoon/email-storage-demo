@@ -19,7 +19,7 @@ func main() {
 	// created if it does not exist.  When using a file instead of memory, it will add a row every time you run it
 	// demonstrating that the previous inserts persisted.
 
-	edb.DSN = "/home/erik/emaildb"
+	//edb.DSN = "/home/username/emaildb"
 
 	InitData(&edb)
 	TestDB(&edb)
